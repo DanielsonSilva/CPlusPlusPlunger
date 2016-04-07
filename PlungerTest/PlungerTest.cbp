@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PlungerTest" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PlungerTest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/PlungerTest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Auxiliar/CasingDados.cpp" />
+		<Unit filename="Auxiliar/CasingDados.h" />
+		<Unit filename="Auxiliar/ConstantesUniversais.cpp" />
+		<Unit filename="Auxiliar/ConstantesUniversais.h" />
+		<Unit filename="Auxiliar/Conversao.cpp" />
+		<Unit filename="Auxiliar/Conversao.h" />
+		<Unit filename="Auxiliar/CycleStage.h" />
+		<Unit filename="Auxiliar/EquacoesAuxiliares.cpp" />
+		<Unit filename="Auxiliar/EquacoesAuxiliares.h" />
+		<Unit filename="Auxiliar/EquacoesUtilitarias.cpp" />
+		<Unit filename="Auxiliar/EquacoesUtilitarias.h" />
+		<Unit filename="Auxiliar/FacedeEntidades.cpp" />
+		<Unit filename="Auxiliar/FacedeEntidades.h" />
+		<Unit filename="Auxiliar/Fluido.cpp" />
+		<Unit filename="Auxiliar/Fluido.h" />
+		<Unit filename="Auxiliar/LinhaProducao.cpp" />
+		<Unit filename="Auxiliar/LinhaProducao.h" />
+		<Unit filename="Auxiliar/Pistao.cpp" />
+		<Unit filename="Auxiliar/Pistao.h" />
+		<Unit filename="Auxiliar/Reservatorio.cpp" />
+		<Unit filename="Auxiliar/Reservatorio.h" />
+		<Unit filename="Auxiliar/Simulacao.cpp" />
+		<Unit filename="Auxiliar/Simulacao.h" />
+		<Unit filename="Auxiliar/SimulacaoThread.cpp" />
+		<Unit filename="Auxiliar/SimulacaoThread.h" />
+		<Unit filename="Auxiliar/SimulatorPoint.h" />
+		<Unit filename="Auxiliar/TemposIniciais.cpp" />
+		<Unit filename="Auxiliar/TemposIniciais.h" />
+		<Unit filename="Auxiliar/TubingDados.cpp" />
+		<Unit filename="Auxiliar/TubingDados.h" />
+		<Unit filename="Auxiliar/ValvulaMotora.cpp" />
+		<Unit filename="Auxiliar/ValvulaMotora.h" />
+		<Unit filename="Auxiliar/VariaveisAuxiliares.cpp" />
+		<Unit filename="Auxiliar/VariaveisAuxiliares.h" />
+		<Unit filename="Auxiliar/VariaveisSaida.cpp" />
+		<Unit filename="Auxiliar/VariaveisSaida.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
