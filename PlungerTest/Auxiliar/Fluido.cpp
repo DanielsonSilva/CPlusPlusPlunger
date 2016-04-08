@@ -60,10 +60,10 @@ void Fluido::Limpar() {
 void Fluido::imprimirVariaveis(ofstream& file) {
     file << "Fluid Data:\n";
     file << "BSW = " << this->BSW << "\n";
-    file << "APi = " << this->APi << "/n";
-    file << "SGgas = " << this->SGgas << "/n";
-    file << "SGagua = " << this->SGagua << "/n";
-    file << "GAMA = " << this->GAMA << "/n";
+    file << "APi = " << this->APi << "\n";
+    file << "SGgas = " << this->SGgas << "\n";
+    file << "SGagua = " << this->SGagua << "\n";
+    file << "GAMA = " << this->GAMA << "\n";
     file << "--------------------------------\n";
 }
 //---------------------------------------------------------------------------

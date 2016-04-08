@@ -142,10 +142,9 @@ void Simulacao::imprimirVariaveis() {
 	VariaveisAuxiliares*  v = VariaveisAuxiliares ::getInstance();
 
     this->file.open("DataCPlusPlusPlunger.txt");
-    file << "Jojou";
-    //f->imprimirVariaveis(this.file&);
-    //c->imprimirVariaveis(this.file&);
-    //v->imprimirVariaveis(this.file&);
+    f->imprimirVariaveis(this->file);
+    c->imprimirVariaveis(this->file);
+    v->imprimirVariaveis(this->file);
     this->file.close();
 
 }

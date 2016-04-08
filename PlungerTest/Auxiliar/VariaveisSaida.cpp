@@ -45,10 +45,10 @@ void VariaveisSaida::Limpar() {
 void VariaveisSaida::imprimirVariaveis(ofstream& file) {
     file << "Output Variable Data:\n";
     file << "PtbgT = " << this->PtbgT << "\n";
-    file << "PcsgB = " << this->PcsgB << "/n";
-    file << "Hplg = " << this->Hplg << "/n";
-    file << "Qlres = " << this->Qlres << "/n";
-    file << "pp = " << this->pp << "/n";
+    file << "PcsgB = " << this->PcsgB << "\n";
+    file << "Hplg = " << this->Hplg << "\n";
+    file << "Qlres = " << this->Qlres << "\n";
+    file << "pp = " << this->pp << "\n";
     file << "--------------------------------\n";
 }
 //---------------------------------------------------------------------------

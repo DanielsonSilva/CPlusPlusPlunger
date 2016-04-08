@@ -44,9 +44,9 @@ void Reservatorio::Limpar() {
 void Reservatorio::imprimirVariaveis(ofstream& file) {
     file << "Reservoir Data:\n";
     file << "Pest = " << this->Pest << "\n";
-    file << "Qteste = " << this->Qteste << "/n";
-    file << "Pteste = " << this->Pteste << "/n";
-    file << "RGL = " << this->RGL << "/n";
+    file << "Qteste = " << this->Qteste << "\n";
+    file << "Pteste = " << this->Pteste << "\n";
+    file << "RGL = " << this->RGL << "\n";
     file << "--------------------------------\n";
 }
 //---------------------------------------------------------------------------

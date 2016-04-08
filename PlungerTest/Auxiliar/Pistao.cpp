@@ -42,11 +42,11 @@ void Pistao::Limpar() {
 void Pistao::imprimirVariaveis(ofstream& file) {
     file << "Plunger Data:\n";
     file << "EfVed = " << this->EfVed << "\n";
-    file << "Mplg = " << this->Mplg << "/n";
-    file << "Lplg = " << this->Lplg << "/n";
-    file << "Vqpl = " << this->Vqpl << "/n";
-    file << "Vqpg = " << this->Vqpg << "/n";
-    file << "Dplg = " << this->Dplg << "/n";
+    file << "Mplg = " << this->Mplg << "\n";
+    file << "Lplg = " << this->Lplg << "\n";
+    file << "Vqpl = " << this->Vqpl << "\n";
+    file << "Vqpg = " << this->Vqpg << "\n";
+    file << "Dplg = " << this->Dplg << "\n";
     file << "--------------------------------\n";
 }
 //---------------------------------------------------------------------------

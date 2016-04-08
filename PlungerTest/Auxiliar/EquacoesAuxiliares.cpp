@@ -596,9 +596,9 @@ void EquacoesAuxiliares::subidaPistao(){
 			f->tempos->Ltbg+=(c->step*f->varSaida->Qlres/86400)/c->AItbg;
 			//INCREMENTA O NÚMERO DE MOLES DE GÁS NO RESERVATÓRIO
 			v->Ntotal+=((c->step*f->varSaida->Qlres*f->reservat->RGL*c->Pstd/86400)/(c->R*c->Tstd)-c->step*v->I);
-			//NORMALIZA A PRESSÃO NA BASE DO REVESTIMENTO PEO NÚMERO DE MOLES
+			//nORMALIZA A PRESSÃO NA BASE DO REVESTIMENTO PEO NÚMERO DE MOLES
 			f->varSaida->PcsgB=f->varSaida->PcsgB*v->Ntotal/v->N;
-			//NORMALIZA A PRESSÃO NO TOPO DO REVESTIMENTO PELO NÚMERO DE MOLES
+			//nORMALIZA A PRESSÃO NO TOPO DO REVESTIMENTO PELO NÚMERO DE MOLES
 			f->tempos->PcsgT=f->tempos->PcsgT*v->Ntotal/v->N;
 			//ATRIBUI A N O NÚMERO DE MOLES DO GÁS NO RESERVATÓRIO
 			v->N=v->Ntotal;
@@ -614,7 +614,7 @@ void EquacoesAuxiliares::subidaPistao(){
 		criarMensagem(PLUNGER_RISE);
 	}
 
-	//NÃO CONSEGUIU CHEGAR NA SUPERFÍCIE
+	//nÃO CONSEGUIU CHEGAR NA SUPERFÍCIE
 	if (f->tempos->Ontime - (v->i*c->step + v->transient) <= 0) {
 		v->j = 0;
 		v->Ntotal += v->nn;
@@ -679,9 +679,9 @@ void EquacoesAuxiliares::producaoLiquido(){
 		v->Vt      = c->AItbg * (f->varSaida->Hplg - f->tempos->Ltbg);
 		//CALCULA A TEMPERATURA MEDIA ENTRE A BASE DO PISTAO E A COLUNA DE LIQUIDO NO FUNDO DO POCO
 		v->TTt     = (EquacoesUtilitarias::TEMP(f->tubing->Lcauda - f->varSaida->Hplg) + EquacoesUtilitarias::TEMP(f->tubing->Lcauda - f->tempos->Ltbg))/2.0;
-		//NUMERO DE MOLES DO GAS NO ANULAR ATUAL RECEBE O VALOR PASSADO
+		//nUMERO DE MOLES DO GAS NO ANULAR ATUAL RECEBE O VALOR PASSADO
 		v->Na      = v->save_Na;
-		//NUMERO DE MOLES DO GAS NO TUBING
+		//nUMERO DE MOLES DO GAS NO TUBING
 		v->Nt      = v->Ntotal - v->Na;
 		//INICIALIZA O CONTADOR y
 		v->y       = 0;
@@ -748,7 +748,7 @@ void EquacoesAuxiliares::producaoLiquido(){
 			}
 			//SE NAO ESTIVER NA PRIMEIRA ITERACAO
 			else{
-				//Ntt ARMAZENA O NUMERO DE MOLES DE GAS NO TUBING
+				//ntt ARMAZENA O NUMERO DE MOLES DE GAS NO TUBING
 				v->Ntt = v->Nt;
 				//RECALCULA O NUMERO DE MOLES DO GAS NO TUBING
 				v->Nt  = v->Nt - (v->Pbt - v->Pba)*(v->Nt_ - v->Nt)/(v->F_ - (v->Pbt - v->Pba));
@@ -1157,7 +1157,7 @@ void EquacoesAuxiliares::OffBuildUp(bool ChegouSup){
 
 	//Pt RECEBE PRESSÃO NO TOPO DO REVESTIMENTO
 	v->Pt = f->tempos->PcsgT;
-	//N RECEBE O NÚMERO DE MOLES TOTAL
+	//n RECEBE O NÚMERO DE MOLES TOTAL
 	v->N = v->Ntotal;
 	//ARMAZENA A PRESSÃO NA BASE DO REVESTIMENTO DIVIDIDA POR 1.5 EM Ptt
 	v->save_PPt = f->varSaida->PcsgB/1.5;

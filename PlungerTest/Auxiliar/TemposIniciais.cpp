@@ -45,12 +45,12 @@ void TemposIniciais::Limpar() {
 void TemposIniciais::imprimirVariaveis(ofstream& file) {
     file << "Initial Condition Data:\n";
     file << "Afterflow = " << this->Afterflow << "\n";
-    file << "Offtime = " << this->Offtime << "/n";
-    file << "Ontime = " << this->Ontime << "/n";
-    file << "PcsgT = " << this->PcsgT << "/n";
-    file << "Ltbg = " << this->Ltbg << "/n";
-    file << "Lslg = " << this->Lslg << "/n";
-    file << "Controller = " << this->Controller << "/n";
+    file << "Offtime = " << this->Offtime << "\n";
+    file << "Ontime = " << this->Ontime << "\n";
+    file << "PcsgT = " << this->PcsgT << "\n";
+    file << "Ltbg = " << this->Ltbg << "\n";
+    file << "Lslg = " << this->Lslg << "\n";
+    file << "Controller = " << this->Controller << "\n";
     file << "--------------------------------\n";
 }
 //---------------------------------------------------------------------------

@@ -43,9 +43,9 @@ void TubingDados::Limpar() {
 void TubingDados::imprimirVariaveis(ofstream& file) {
     file << "Tubing Data:\n";
     file << "Lcauda = " << this->Lcauda << "\n";
-    file << "E = " << this->E << "/n";
-    file << "DItbg = " << this->DItbg << "/n";
-    file << "DOtbg = " << this->DOtbg << "/n";
+    file << "E = " << this->E << "\n";
+    file << "DItbg = " << this->DItbg << "\n";
+    file << "DOtbg = " << this->DOtbg << "\n";
     file << "--------------------------------\n";
 }
 

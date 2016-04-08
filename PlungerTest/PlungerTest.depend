@@ -1,34 +1,34 @@
 # depslib dependency file v1.0
-1459994510 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/CasingDados.cpp
+1460077553 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/CasingDados.cpp
 	"CasingDados.h"
 	<fstream>
 
-1459994510 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/CasingDados.h
+1460075870 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/CasingDados.h
 	<fstream>
 	<iostream>
 	<stdlib.h>
 
-1459994511 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/ConstantesUniversais.cpp
+1460077554 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/ConstantesUniversais.cpp
 	"ConstantesUniversais.h"
 	<fstream>
 	<stdlib.h>
 
-1459994511 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/ConstantesUniversais.h
+1460075870 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/ConstantesUniversais.h
 	<fstream>
 
-1303220798 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/Conversao.cpp
+1460075870 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/Conversao.cpp
 	"Conversao.h"
 
-1303220796 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/Conversao.h
+1460075870 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/Conversao.h
 	<cstddef>
 
-1459719372 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/EquacoesAuxiliares.cpp
+1460075870 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/EquacoesAuxiliares.cpp
 	<iostream>
 	"EquacoesAuxiliares.h"
 	"SimulatorPoint.h"
 	<stdlib.h>
 
-1459088302 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/EquacoesAuxiliares.h
+1460075870 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/EquacoesAuxiliares.h
 	"EquacoesUtilitarias.h"
 	"VariaveisAuxiliares.h"
 	"CycleStage.h"
@@ -36,13 +36,13 @@
 	<iostream>
 	<cmath>
 
-1459385265 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/EquacoesUtilitarias.h
+1460075870 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/EquacoesUtilitarias.h
 	<math.h>
 	<cmath>
 	"ConstantesUniversais.h"
 	"FacedeEntidades.h"
 
-1459994511 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/FacedeEntidades.h
+1460075870 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/FacedeEntidades.h
 	<fstream>
 	"TubingDados.h"
 	"CasingDados.h"
@@ -54,87 +54,88 @@
 	"TemposIniciais.h"
 	"VariaveisSaida.h"
 
-1459994376 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/TubingDados.h
+1460075870 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/TubingDados.h
 	<stdlib.h>
 	<fstream>
 
-1459994511 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/ValvulaMotora.h
+1460075870 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/ValvulaMotora.h
 	<stdlib.h>
 	<fstream>
 
-1459994511 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/LinhaProducao.h
+1460075870 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/LinhaProducao.h
 	<stdlib.h>
 	<fstream>
 
-1459994511 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/Reservatorio.h
+1460075870 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/Reservatorio.h
 	<stdlib.h>
 	<fstream>
 
-1459994510 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/Pistao.h
+1460075870 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/Pistao.h
 	<stdlib.h>
 	<fstream>
 
-1459994511 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/Fluido.h
+1460075870 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/Fluido.h
 	<stdlib.h>
 	<fstream>
 
-1459994511 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/TemposIniciais.h
+1460075870 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/TemposIniciais.h
 	<stdlib.h>
 	<fstream>
 
-1459994511 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/VariaveisSaida.h
+1460075870 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/VariaveisSaida.h
 	<stdlib.h>
 	<fstream>
 
-1459994511 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/VariaveisAuxiliares.h
+1460075870 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/VariaveisAuxiliares.h
 	<fstream>
 
-1323174316 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/CycleStage.h
+1460075870 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/CycleStage.h
 
-1303220806 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/SimulatorPoint.h
+1460075870 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/SimulatorPoint.h
 	<cstddef>
 	<vector>
 	"CycleStage.h"
 
-1459385393 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/EquacoesUtilitarias.cpp
+1460075870 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/EquacoesUtilitarias.cpp
 	"EquacoesUtilitarias.h"
 
-1459994510 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/FacedeEntidades.cpp
+1460075870 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/FacedeEntidades.cpp
 	<fstream>
 	"FacedeEntidades.h"
 
-1459994535 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/Fluido.cpp
+1460075870 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/Fluido.cpp
 	"Fluido.h"
 	<fstream>
 
-1459994511 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/LinhaProducao.cpp
+1460075870 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/LinhaProducao.cpp
 	"LinhaProducao.h"
 	<fstream>
 
-1459994511 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/Pistao.cpp
+1460075870 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/Pistao.cpp
 	"Pistao.h"
 	<fstream>
 
-1459994511 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/Reservatorio.cpp
+1460075870 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/Reservatorio.cpp
 	"Reservatorio.h"
 	<fstream>
 
-1459719248 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/Simulacao.cpp
+1460076684 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/Simulacao.cpp
 	<unistd.h>
 	<stdio.h>
 	<iostream>
+	<fstream>
 	"Simulacao.h"
 
-1459993816 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/Simulacao.h
+1460075870 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/Simulacao.h
 	<fstream>
 	"EquacoesAuxiliares.h"
 	"ConstantesUniversais.h"
 
-1459707387 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/SimulacaoThread.cpp
+1460075870 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/SimulacaoThread.cpp
 	"SimulacaoThread.h"
 	<iostream>
 
-1459706945 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/SimulacaoThread.h
+1460075870 /home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/SimulacaoThread.h
 	"Simulacao.h"
 	"FacedeEntidades.h"
 	"ConstantesUniversais.h"
@@ -147,7 +148,7 @@
 	"TubingDados.h"
 	"TubingDados.h"
 
-1305896488 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/ValvulaMotora.cpp
+1460075870 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/ValvulaMotora.cpp
 	"ValvulaMotora.h"
 
 1380562470 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/VariaveisAuxiliares.cpp
@@ -157,7 +158,7 @@
 1305895540 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/Auxiliar/VariaveisSaida.cpp
 	"VariaveisSaida.h"
 
-1459707462 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/main.cpp
+1460075870 source:/home/danielson/workspace/PlungerSimulatorC++/PlungerTest/main.cpp
 	<iostream>
 	<unistd.h>
 	<stdio.h>

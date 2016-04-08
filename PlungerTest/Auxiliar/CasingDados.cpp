@@ -61,10 +61,10 @@ void CasingDados::Limpar() {
 void CasingDados::imprimirVariaveis(ofstream& file) {
     file << "Casing Data:\n";
     file << "DIcsg = " << this->DIcsg << "\n";
-    file << "comprimento = " << this->comprimento << "/n";
-    file << "rugosidade = " << this->rugosidade << "/n";
-    file << "DEcsg = " << this->DEcsg << "/n";
-    file << "peso = " << this->peso << "/n";
+    file << "comprimento = " << this->comprimento << "\n";
+    file << "rugosidade = " << this->rugosidade << "\n";
+    file << "DEcsg = " << this->DEcsg << "\n";
+    file << "peso = " << this->peso << "\n";
     file << "--------------------------------\n";
 }
 //---------------------------------------------------------------------------
